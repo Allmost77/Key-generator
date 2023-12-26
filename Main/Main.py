@@ -1,3 +1,2 @@
+import random
 
-
-print('Hello')
