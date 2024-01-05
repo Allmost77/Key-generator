@@ -1,6 +1,9 @@
-import Generator
-import Gui
+from Generator import generate
+from Gui import run_gui
 
+def main():
+    generate(8)
+    run_gui()
 
-generated_key = generate(8)
-print("Generated key:", generated_key)
+if __name__ == "__main__":
+    main()

@@ -1,4 +1,4 @@
-import  random
+import random
 import string
 def generate(key):
     letters = string.ascii_lowercase
