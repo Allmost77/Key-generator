@@ -26,7 +26,8 @@ def run_gui():
 
     root.geometry("400x600")
     root.resizable(False, False)
-    root.iconbitmap(default="C:/Users/Allmost/Documents/GitHub/Key-generator/Main/icon.ico")
+
+
 
     root.mainloop()
 
