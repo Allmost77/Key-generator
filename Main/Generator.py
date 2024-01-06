@@ -1,6 +1,4 @@
-import random
-import string
-def generate(key):
-    letters = string.ascii_lowercase
-    rand_string = ''.join(random.choice(letters) for i in range(key))
-    return rand_string
+from cryptography.fernet import Fernet
+def generate():
+    key = Fernet.generate_key()
+    return key

@@ -2,7 +2,7 @@ from Generator import generate
 from Gui import run_gui
 
 def main():
-    generate(8)
+    generate()
     run_gui()
 
 if __name__ == "__main__":
